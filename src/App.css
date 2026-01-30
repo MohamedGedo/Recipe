@@ -1,0 +1,9 @@
+@import "tailwindcss";
+.font-pacifico {
+  font-family: "Pacifico", cursive;
+}
+.font-cursive{
+ font-family: "Edu NSW ACT Cursive", cursive;}
+.active{
+    @apply bg-black text-white
+}
