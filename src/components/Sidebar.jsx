@@ -16,7 +16,7 @@ export default function Sidebar({ isOpen, setIsOpen }) {
         />
       </div>
       <div
-        className={`pt-6 px-3 fixed inset-y-0 left-0 bg-white w-70  ${isOpen ? "translate-x-0" : "-translate-x-100"} duration-300 sm:translate-x-0`}
+        className={`pt-6 px-3 fixed z-50 inset-y-0 left-0 bg-white w-70  ${isOpen ? "translate-x-0" : "-translate-x-100"} duration-300 sm:translate-x-0`}
       >
         <div>
           <img src={logo} alt="logo" className="w-full" />
